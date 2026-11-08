@@ -1,38 +1,34 @@
-# CI/CD Tools and Practices Final Project Template
 
-This repository contains the template to be used for the Final Project for the Coursera course **CI/CD Tools and Practices**.
+# CI/CD Tools and Practices Final Project
 
-## Usage
+## Project Description
 
-This repository is to be used as a template to create your own repository in your own GitHub account. No need to Fork it as it has been set up as a Template. This will avoid confusion when making Pull Requests in the future.
+This project demonstrates the use of Continuous Integration and Continuous Delivery (CI/CD) tools and practices to automate software development processes.
 
-From the GitHub **Code** page, press the green **Use this template** button to create your own repository from this template.
+## Project Objectives
 
-Name your repo: `ci-cd-final-project`.
+- Implement automated CI/CD pipelines.
+- Use GitHub for version control.
+- Perform automated code linting with Flake8.
+- Run unit tests using Nose.
+- Build container images using Buildah.
+- Use Tekton pipelines to automate the build process.
 
-## Setup
+## Technologies Used
 
-After entering the lab environment you will need to run the `setup.sh` script in the `./bin` folder to install the prerequisite software.
+- Git and GitHub
+- Python
+- Flake8
+- Nose
+- Tekton
+- Kubernetes
+- OpenShift
+- Buildah
 
-```bash
-bash bin/setup.sh
-```
+## Project Overview
 
-Then you must exit the shell and start a new one for the Python virtual environment to be activated.
-
-```bash
-exit
-```
-
-## Tasks
-
-
-## License
-
-Licensed under the Apache License. See [LICENSE](/LICENSE)
+The CI/CD pipeline automates several stages of software development, including cloning source code, checking code quality, running unit tests, and building container images.
 
 ## Author
 
-Skills Network
-
-## <h3 align="center"> © IBM Corporation 2023. All rights reserved. <h3/>
+Alicia Pinkerton
